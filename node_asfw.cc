@@ -28,7 +28,7 @@ NAN_METHOD(_SetForegroundWindow) {
         }
         else {
             ShowWindow(hwnd, SW_SHOW);
-    	}
+        }
     }
     else {
         ShowWindow(hwnd, SW_SHOW);
